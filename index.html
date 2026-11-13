@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eya Zantour — AI Engineer</title>
+  <title>Eya Zantour · AI Engineer</title>
   <meta name="description" content="Eya Zantour, AI engineer in Sousse, Tunisia. Case studies on IASMO, the multi-agent AI system inside Smoft ERP: document understanding (SmartOCR), agent routing (Supervisor) and LLM/VLM serving with vLLM.">
   <meta name="author" content="Eya Zantour">
-  <meta property="og:title" content="Eya Zantour — AI Engineer">
+  <meta property="og:title" content="Eya Zantour · AI Engineer">
   <meta property="og:description" content="Case studies on multi-agent orchestration, intelligent document processing and LLM deployment inside an ERP.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/eya-zantour.jpg">
-  <meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#151410" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1916'/%3E%3Crect x='6' y='9' width='20' height='14' fill='none' stroke='%23e57a55' stroke-width='2'/%3E%3Ctext x='16' y='20' font-family='Georgia,serif' font-size='11' fill='%23f3f0e8' text-anchor='middle'%3EEZ%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#fffaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1a14" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%231f3d2b'/%3E%3Ccircle cx='12' cy='16' r='5' fill='%23c95a6c'/%3E%3Ccircle cx='21' cy='16' r='5' fill='%23f4d9d0'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>
     document.documentElement.classList.remove('no-js');
@@ -54,37 +54,29 @@
 <section class="hero">
   <div class="wrap">
     <div class="hero__grid">
-      <div>
-        <div class="hero__kicker label">
-          <span><span class="dot" aria-hidden="true"></span>AI engineer at Smoft ERP</span>
-          <span>Sousse, Tunisia</span>
+      <div class="hero__photo">
+        <div class="photo-card">
+          <img src="assets/eya-zantour.jpg" alt="Eya Zantour, smiling, arms crossed, in a beige blazer" width="400" height="400">
         </div>
-        <h1>I build AI agents that <span class="field" data-label="doc_type">read business documents</span>, <span class="field" data-label="route">decide where a request goes</span>, and <em>run inside a real ERP.</em></h1>
-        <p class="hero__intro">
-          I'm Eya Zantour, a computer engineer specialised in data science and AI. At <strong>Smoft ERP</strong> I work on
-          <strong>IASMO</strong>, the multi-agent system built into the company's ERP. I designed <strong>SmartOCR</strong>, its
-          document classification and extraction agent. I also work on the <strong>Supervisor</strong> that routes requests between agents,
-          help improve other agents such as <strong>AutoFlow</strong>, and deploy the language and vision models these agents rely on.
-        </p>
-        <div class="ctas">
-          <a class="btn btn--solid" href="#work">Read the case studies <span aria-hidden="true">↓</span></a>
-          <a class="btn" href="#projects">Other projects</a>
-          <a class="btn btn--ghost" href="#contact" data-contact>Get in touch</a>
-        </div>
+        <span class="sticker sticker--a">AI engineer at Smoft ERP</span>
+        <span class="sticker sticker--b">Sousse, Tunisia</span>
       </div>
 
-      <div class="hero__side">
-        <figure class="portrait">
-          <div class="portrait__frame">
-            <i class="c1" aria-hidden="true"></i><i class="c2" aria-hidden="true"></i>
-            <img src="assets/eya-zantour.jpg" alt="Portrait of Eya Zantour, smiling, arms crossed, wearing a beige blazer" width="400" height="400">
-          </div>
-          <figcaption class="label"><span>Eya Zantour</span><span>fig. 01</span></figcaption>
-        </figure>
-        <div class="now">
-          <span class="label">Currently</span>
-          <p>Moving SmartOCR to a vision-language model (PaddleOCR-VL 1.6), improving the AutoFlow agent with Kafka, and serving models with vLLM on multi-GPU Linux servers.</p>
+      <div class="hero__text">
+        <p class="hello">Hi, I'm Eya.</p>
+        <h1>I build AI agents for <span class="hl">real business software.</span></h1>
+        <p class="hero__intro">
+          I'm a computer engineer specialised in data science and AI. At <strong>Smoft ERP</strong> I work on
+          <strong>IASMO</strong>, the multi-agent system built into the company's ERP. I designed <strong>SmartOCR</strong>,
+          the agent that reads and checks business documents, I work on the <strong>Supervisor</strong> that decides which agent
+          handles a request, I help improve other agents like <strong>AutoFlow</strong>, and I deploy the models they all run on.
+        </p>
+        <div class="ctas">
+          <a class="btn btn--solid" href="#work">See what I've built</a>
+          <a class="btn" href="#projects">Other projects</a>
+          <a class="btn btn--ghost" href="#contact" data-contact>Say hello</a>
         </div>
+        <p class="now"><span><b>Right now</b> I'm moving SmartOCR to a vision-language model (PaddleOCR-VL 1.6), improving AutoFlow with Kafka, and serving models with vLLM on multi-GPU servers.</span></p>
       </div>
     </div>
 
@@ -101,8 +93,8 @@
 <section class="section" id="about">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">01 —<span>About</span></div>
-      <h2 class="section__title">From embedded systems to agents that work in production software.</h2>
+      <div class="section__num">About me</div>
+      <h2 class="section__title">I started on the hardware side and ended up building AI agents.</h2>
     </div>
     <div class="body-grid">
       <div class="side"></div>
@@ -114,10 +106,10 @@
           <p>The work I enjoy most is turning a capable model into something a business process can depend on. That means validation, routing, context management, deployment, and the unglamorous integration work that connects them. I also still write PHP and SQL for the ERP itself. It keeps me close to the people who actually use what I build.</p>
         </div>
         <ul class="route reveal" aria-label="Path so far">
-          <li><span class="yr">2020 – 2023</span><span><b>Licence, Computer Systems Engineering</b> — IoT &amp; embedded systems, ISITCom Sousse</span></li>
-          <li><span class="yr">2023 – 2024</span><span><b>Master 1, Intelligent Pervasive Systems</b> — ISSAT Sousse</span></li>
-          <li><span class="yr">2024 – 2026</span><span><b>Engineering degree, Computer Engineering</b> — Data Science &amp; AI, École Polytechnique de Sousse</span></li>
-          <li><span class="yr">2026 →</span><span><b>Smoft ERP</b> — final-year project on SmartOCR, then engineer on the IASMO team</span></li>
+          <li><span class="yr">2020 – 2023</span><span><b>Licence, Computer Systems Engineering</b><br>IoT &amp; embedded systems, ISITCom Sousse</span></li>
+          <li><span class="yr">2023 – 2024</span><span><b>Master 1, Intelligent Pervasive Systems</b><br>ISSAT Sousse</span></li>
+          <li><span class="yr">2024 – 2026</span><span><b>Engineering degree, Computer Engineering</b><br>Data Science &amp; AI, École Polytechnique de Sousse</span></li>
+          <li><span class="yr">2026 →</span><span><b>Smoft ERP</b><br>Final-year project on SmartOCR, then a full-time role on the IASMO team</span></li>
         </ul>
       </div>
     </div>
@@ -128,27 +120,27 @@
 <section class="section" id="work">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">02 —<span>Case studies</span></div>
+      <div class="section__num">What I've been building</div>
       <div>
-        <h2 class="section__title">Work at Smoft ERP</h2>
+        <h2 class="section__title">My work at Smoft ERP</h2>
         <p class="section__lede">Most of my engineering work so far has gone into one system: IASMO, the AI layer inside Smoft's ERP. The four write-ups below cover it from different angles: the ecosystem, the agent I designed, the orchestrator, and the infrastructure underneath.</p>
       </div>
     </div>
 
     <ol class="index reveal">
-      <li><a href="#cs-iasmo"><span class="index__n">01</span><span class="index__t">IASMO — a multi-agent system inside an ERP<small>The context: what IASMO is and where my work sits in it.</small></span><span class="index__m">Ecosystem</span></a></li>
-      <li><a href="#cs-smartocr"><span class="index__n">02</span><span class="index__t">SmartOCR — reading, classifying and validating business documents<small>Final-year project. 95% classification, 91% field extraction.</small></span><span class="index__m">PFE · 2026</span></a></li>
-      <li><a href="#cs-supervisor"><span class="index__n">03</span><span class="index__t">The Supervisor — routing requests without drowning the model in context<small>LangGraph orchestration with Qwen3-14B and retrieval-based context.</small></span><span class="index__m">Orchestration</span></a></li>
-      <li><a href="#cs-infra"><span class="index__n">04</span><span class="index__t">Running the models — vLLM, GPUs and the services around them<small>What an AI engineer ends up learning about infrastructure.</small></span><span class="index__m">Deployment</span></a></li>
+      <li><a href="#cs-iasmo"><span class="index__n">01</span><span class="index__t">IASMO, the AI layer inside Smoft ERP<small>The context: what IASMO is and where my work sits in it.</small></span><span class="index__m">Ecosystem</span></a></li>
+      <li><a href="#cs-smartocr"><span class="index__n">02</span><span class="index__t">SmartOCR reads and checks business documents<small>My final-year project. 95% classification, 91% field extraction.</small></span><span class="index__m">PFE · 2026</span></a></li>
+      <li><a href="#cs-supervisor"><span class="index__n">03</span><span class="index__t">The Supervisor picks the right agent<small>LangGraph orchestration with Qwen3-14B and retrieval-based context.</small></span><span class="index__m">Orchestration</span></a></li>
+      <li><a href="#cs-infra"><span class="index__n">04</span><span class="index__t">Running the models ourselves<small>vLLM, GPUs, systemd and the services around them.</small></span><span class="index__m">Deployment</span></a></li>
     </ol>
 
     <!-- ---------- Case 01: IASMO ---------- -->
     <article class="case" id="cs-iasmo">
       <header class="case__head">
-        <div class="case__num">Case 01</div>
+        <div class="case__num">Case study 1</div>
         <div>
-          <h3 class="case__title">IASMO — a multi-agent system inside an ERP</h3>
-          <p class="case__sub">IASMO isn't a standalone chatbot. It's an AI layer integrated into Smoft ERP, made up of specialised agents that each handle one kind of work, coordinated by a Supervisor.</p>
+          <h3 class="case__title">IASMO, the AI layer inside Smoft ERP</h3>
+          <p class="case__sub">IASMO lives inside Smoft ERP. It's a set of specialised agents, each good at one kind of task, with a Supervisor in front deciding who handles what.</p>
           <dl class="meta">
             <div><dt class="label">Organisation</dt><dd>Smoft ERP, Sousse</dd></div>
             <div><dt class="label">My part</dt><dd>SmartOCR (design &amp; build), Supervisor, improvements to other agents incl. AutoFlow, model deployment</dd></div>
@@ -177,17 +169,17 @@
                 <div class="arrow-down" aria-hidden="true"></div>
               </div>
               <div class="iasmo__agents">
-                <div class="node node--key" data-tag="DESIGNED BY ME"><b>SmartOCR</b><span class="mono">document classification &amp; extraction</span></div>
+                <div class="node node--key" data-tag="built by me"><b>SmartOCR</b><span class="mono">document classification &amp; extraction</span></div>
                 <div class="node"><b>Scoring</b><span class="mono">CV-related requests</span></div>
                 <div class="node"><b>Action</b><span class="mono">ERP document operations</span></div>
                 <div class="node"><b>Copilot</b><span class="mono">agent</span></div>
                 <div class="node"><b>AutoPilot</b><span class="mono">agent</span></div>
-                <div class="node node--key" data-tag="IMPROVED"><b>AutoFlow</b><span class="mono">agent · Kafka</span></div>
+                <div class="node node--key" data-tag="improved"><b>AutoFlow</b><span class="mono">agent · Kafka</span></div>
                 <div class="node"><b>Student</b><span class="mono">agent</span></div>
                 <div class="node"><b>IndusAI</b><span class="mono">agent</span></div>
               </div>
             </div>
-            <figcaption><span class="label">Fig. 02 — IASMO agents behind a single Supervisor</span><span class="label">Highlighted: agents I built or improved</span></figcaption>
+            <figcaption><span class="label">IASMO agents behind a single Supervisor</span><span class="label">Highlighted: agents I built or improved</span></figcaption>
           </figure>
         </div>
       </div>
@@ -196,10 +188,10 @@
         <div class="block__label">My contribution</div>
         <div class="block__body">
           <ul class="list">
-            <li><strong>SmartOCR</strong>: designed and built as my final-year project, now evolving with a vision-language model. <a href="#cs-smartocr">Case 02 →</a></li>
+            <li><strong>SmartOCR</strong>: designed and built as my final-year project, now evolving with a vision-language model. <a href="#cs-smartocr">Case study 2 →</a></li>
             <li><strong>AutoFlow and other agents</strong>: took part in improving the other IASMO agents. On AutoFlow, that work involved bringing Kafka into its architecture.</li>
-            <li><strong>Supervisor</strong>: worked on the routing concept and implementation, focusing on reducing prompt size with retrieval. <a href="#cs-supervisor">Case 03 →</a></li>
-            <li><strong>Model serving</strong>: deploying LLM and VLM inference services with vLLM on multi-GPU Linux servers. <a href="#cs-infra">Case 04 →</a></li>
+            <li><strong>Supervisor</strong>: worked on the routing concept and implementation, focusing on reducing prompt size with retrieval. <a href="#cs-supervisor">Case study 3 →</a></li>
+            <li><strong>Model serving</strong>: deploying LLM and VLM inference services with vLLM on multi-GPU Linux servers. <a href="#cs-infra">Case study 4 →</a></li>
             <li><strong>The ERP itself</strong>: tickets, debugging and tests on PHP/MySQL features, so that AI features land in a product I understand from the inside.</li>
           </ul>
           <p class="note">IASMO is a team effort. I describe in detail only the parts I designed or worked on most deeply. Agents I didn't touch appear by name only.</p>
@@ -210,12 +202,12 @@
     <!-- ---------- Case 02: SmartOCR ---------- -->
     <article class="case" id="cs-smartocr">
       <header class="case__head">
-        <div class="case__num">Case 02</div>
+        <div class="case__num">Case study 2</div>
         <div>
-          <h3 class="case__title">SmartOCR — reading, classifying and validating business documents</h3>
+          <h3 class="case__title">SmartOCR reads and checks business documents</h3>
           <p class="case__sub">An IASMO agent that takes an uploaded document, works out what it is, extracts the fields the ERP needs, and checks them before anything becomes a record.</p>
           <dl class="meta">
-            <div><dt class="label">Role</dt><dd>AI engineering intern — final-year project (PFE)</dd></div>
+            <div><dt class="label">Role</dt><dd>AI engineering intern, final-year project (PFE)</dd></div>
             <div><dt class="label">Period</dt><dd>Feb – Jul 2026, continued since</dd></div>
             <div><dt class="label">Core stack</dt><dd>PaddleOCR, Qwen3-14B, Qdrant, BGE-M3, MySQL</dd></div>
           </dl>
@@ -235,14 +227,14 @@
         <div class="block__body wide">
           <figure class="fig" aria-label="SmartOCR processing pipeline">
             <ol class="pipe">
-              <li><div class="node"><span class="step">01 INGEST</span><b>Upload</b><span class="mono">PDF or image attached in the ERP</span></div></li>
-              <li><div class="node"><span class="step">02 READ</span><b>OCR</b><span class="mono">PaddleOCR → now PaddleOCR-VL 1.6</span></div></li>
-              <li><div class="node"><span class="step">03 CONTEXT</span><b>Retrieve</b><span class="mono">BGE-M3 → Qdrant, plus MySQL data</span></div></li>
-              <li><div class="node node--ink"><span class="step">04 UNDERSTAND</span><b>Classify &amp; extract</b><span class="mono">Qwen3-14B → structured fields</span></div></li>
-              <li><div class="node node--key" data-tag="RULES"><span class="step">05 CHECK</span><b>Validate</b><span class="mono">anomaly &amp; consistency rules</span></div></li>
-              <li><div class="node"><span class="step">06 HAND OFF</span><b>ERP draft</b><span class="mono">blocked if a check fails</span></div></li>
+              <li><div class="node"><span class="step">ingest</span><b>Upload</b><span class="mono">PDF or image attached in the ERP</span></div></li>
+              <li><div class="node"><span class="step">read</span><b>OCR</b><span class="mono">PaddleOCR → now PaddleOCR-VL 1.6</span></div></li>
+              <li><div class="node"><span class="step">context</span><b>Retrieve</b><span class="mono">BGE-M3 → Qdrant, plus MySQL data</span></div></li>
+              <li><div class="node node--ink"><span class="step">understand</span><b>Classify &amp; extract</b><span class="mono">Qwen3-14B → structured fields</span></div></li>
+              <li><div class="node node--key" data-tag="rules"><span class="step">check</span><b>Validate</b><span class="mono">anomaly &amp; consistency rules</span></div></li>
+              <li><div class="node"><span class="step">hand off</span><b>ERP draft</b><span class="mono">blocked if a check fails</span></div></li>
             </ol>
-            <figcaption><span class="label">Fig. 03 — From uploaded file to validated ERP draft</span><span class="label">Logging at every stage</span></figcaption>
+            <figcaption><span class="label">From uploaded file to validated ERP draft</span><span class="label">Logging at every stage</span></figcaption>
           </figure>
         </div>
       </div>
@@ -363,9 +355,9 @@
     <!-- ---------- Case 03: Supervisor ---------- -->
     <article class="case" id="cs-supervisor">
       <header class="case__head">
-        <div class="case__num">Case 03</div>
+        <div class="case__num">Case study 3</div>
         <div>
-          <h3 class="case__title">The Supervisor — routing requests without drowning the model in context</h3>
+          <h3 class="case__title">The Supervisor picks the right agent, without a huge prompt</h3>
           <p class="case__sub">How do you build an orchestrator that makes good routing decisions while keeping prompt size, cost and latency under control?</p>
           <dl class="meta">
             <div><dt class="label">Role</dt><dd>Concept and implementation work on routing</dd></div>
@@ -405,7 +397,7 @@
               <span class="router__dot" id="router-dot" aria-hidden="true"></span>
             </div>
             <p class="router__why" id="router-why" role="status" aria-live="polite">Pick a request above to see where the Supervisor sends it.</p>
-            <figcaption><span class="label">Fig. 04 &mdash; Supervisor routing, simplified</span><span class="label">Illustrative example requests</span></figcaption>
+            <figcaption><span class="label">Supervisor routing, simplified</span><span class="label">Illustrative example requests</span></figcaption>
           </figure>
         </div>
       </div>
@@ -415,7 +407,7 @@
         <div class="block__body wide">
           <div class="compare">
             <div>
-              <h5>First approach — send everything</h5>
+              <h5>First approach: send everything</h5>
               <div class="prompt" aria-hidden="true">
                 <span>system instructions</span>
                 <span class="hot">all agent descriptions</span>
@@ -426,7 +418,7 @@
               <p>Simple and predictable, but the prompt is large on every call and keeps growing as agents are added. Most of it is irrelevant to the request at hand.</p>
             </div>
             <div>
-              <h5>Revised approach — retrieve what's relevant</h5>
+              <h5>Revised approach: retrieve what's relevant</h5>
               <div class="prompt" aria-hidden="true">
                 <span>system instructions</span>
                 <span class="dim">all agent descriptions</span>
@@ -465,10 +457,10 @@
     <!-- ---------- Case 04: Infrastructure ---------- -->
     <article class="case" id="cs-infra">
       <header class="case__head">
-        <div class="case__num">Case 04</div>
+        <div class="case__num">Case study 4</div>
         <div>
-          <h3 class="case__title">Running the models — vLLM, GPUs and the services around them</h3>
-          <p class="case__sub">I'm not a DevOps engineer. But agents that run on self-hosted models need someone who understands both the model and the server it runs on, and on IASMO that is often part of my job.</p>
+          <h3 class="case__title">Running the models ourselves: vLLM, GPUs and the services around them</h3>
+          <p class="case__sub">I'm an AI engineer, not a DevOps engineer. Still, our agents run on our own GPUs, so understanding the server under the model has become part of my job.</p>
           <dl class="meta">
             <div><dt class="label">Hardware</dt><dd>Multi-GPU Linux servers, NVIDIA L4</dd></div>
             <div><dt class="label">Serving</dt><dd>vLLM (LLM &amp; VLM inference), systemd</dd></div>
@@ -497,10 +489,10 @@
               <div class="layer"><div class="layer__name">Entry</div><div class="layer__nodes"><div class="node"><b>FastAPI gateway</b><span class="mono">JWT authentication · RBAC</span></div></div></div>
               <div class="layer"><div class="layer__name">Messaging</div><div class="layer__nodes"><div class="node"><b>RabbitMQ</b><span class="mono">message broker</span></div><div class="node"><b>Kafka</b><span class="mono">event streaming</span></div><div class="node"><b>Redis</b><span class="mono">in-memory store</span></div></div></div>
               <div class="layer"><div class="layer__name">Agents</div><div class="layer__nodes"><div class="node node--ink"><b>Supervisor + IASMO agents</b><span class="mono">LangGraph</span></div></div></div>
-              <div class="layer layer--mine"><div class="layer__name">Model serving ✱</div><div class="layer__nodes"><div class="node node--key" data-tag="HANDS-ON"><b>vLLM services</b><span class="mono">LLM &amp; VLM · systemd units · one port per service</span></div><div class="node node--key" data-tag="HANDS-ON"><b>NVIDIA L4 GPUs</b><span class="mono">multi-GPU Linux servers</span></div></div></div>
+              <div class="layer layer--mine"><div class="layer__name">Model serving</div><div class="layer__nodes"><div class="node node--key" data-tag="hands-on"><b>vLLM services</b><span class="mono">LLM &amp; VLM · systemd units · one port per service</span></div><div class="node node--key" data-tag="hands-on"><b>NVIDIA L4 GPUs</b><span class="mono">multi-GPU Linux servers</span></div></div></div>
               <div class="layer"><div class="layer__name">Data</div><div class="layer__nodes"><div class="node"><b>MySQL</b><span class="mono">per-tenant databases</span></div><div class="node"><b>Qdrant</b><span class="mono">vector search</span></div></div></div>
             </div>
-            <figcaption><span class="label">Fig. 05 — The platform around the agents</span><span class="label">✱ the layer I work on most directly</span></figcaption>
+            <figcaption><span class="label">The platform around the agents</span><span class="label">Highlighted: the layer I work on most</span></figcaption>
           </figure>
         </div>
       </div>
@@ -519,9 +511,9 @@
 <section class="section" id="projects">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">03 —<span>Projects</span></div>
+      <div class="section__num">Side projects</div>
       <div>
-        <h2 class="section__title">Challenges, coursework and side projects</h2>
+        <h2 class="section__title">Things I built along the way</h2>
         <p class="section__lede">A selection from GitHub and AI challenges. These were built outside Smoft, mostly as an engineering student. They show the range: computer vision, RAG, MLOps and distributed backends.</p>
       </div>
     </div>
@@ -567,7 +559,7 @@
           <a href="https://github.com/AyaZantour/SmartParkTN" target="_blank" rel="noopener">github ↗</a>
         </div>
         <div>
-          <h3>SmartParkTN — licence-plate recognition built for Tunisian plates</h3>
+          <h3>SmartParkTN reads Tunisian licence plates</h3>
           <p class="project__lede">Generic ALPR systems fail on Tunisian plates because of the Arabic word «تونس» between the digit groups. SmartParkTN reads plates in real time, decides on access, computes parking fees, and includes a RAG assistant that answers staff questions about parking rules.</p>
           <details class="more more--inline"><summary class="more__btn"><span class="more__t">How it&rsquo;s built</span></summary>
           <div class="project__cols">
@@ -630,7 +622,7 @@
           <a href="https://github.com/AyaZantour/mlops-diabetes-project" target="_blank" rel="noopener">github ↗</a>
         </div>
         <div>
-          <h3>MLOps pipelines — from notebook to versioned, deployable model</h3>
+          <h3>MLOps pipelines, from notebook to deployable model</h3>
           <p class="project__lede">Several end-to-end MLOps projects. The model is deliberately simple, because the point is everything around it: data and model versioning, experiment tracking, tuning, testing, and serving.</p>
           <details class="more more--inline"><summary class="more__btn"><span class="more__t">How it&rsquo;s built</span></summary>
           <div class="project__cols">
@@ -710,9 +702,9 @@
 <section class="section" id="experience">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">04 —<span>Experience</span></div>
+      <div class="section__num">Experience</div>
       <div>
-        <h2 class="section__title">Five roles, one direction</h2>
+        <h2 class="section__title">Where I've worked</h2>
         <p class="section__lede">Each role moved me a step closer to the work I do now. I started with web applications, added AI to them, and now build AI systems inside an enterprise product.</p>
       </div>
     </div>
@@ -721,7 +713,7 @@
       <li class="job reveal">
         <div class="job__when"><b>Aug 2026 – present</b>Sousse, Tunisia<br><span class="now-tag">● current</span></div>
         <div>
-          <h3>Smoft ERP<span>Computer Engineer — AI &amp; Software Development</span></h3>
+          <h3>Smoft ERP<span>Computer Engineer, AI &amp; Software Development</span></h3>
           <p class="job__thread">After my final-year project, I joined the IASMO team full-time.</p>
           <ul class="list">
             <li>Contribute to IASMO, the multi-agent AI system in the ERP, coordinating specialised LLM agents with LangGraph.</li>
@@ -736,7 +728,7 @@
       <li class="job reveal">
         <div class="job__when"><b>Feb – Jul 2026</b>Sousse, Tunisia<br>Internship · PFE</div>
         <div>
-          <h3>Smoft ERP<span>AI Engineering Intern — Final-Year Project (PFE)</span></h3>
+          <h3>Smoft ERP<span>AI Engineering Intern, Final-Year Project (PFE)</span></h3>
           <p class="job__thread">My first AI system working with real business data.</p>
           <ul class="list">
             <li>Designed SmartOCR, the IASMO agent for intelligent document classification and extraction, built on PaddleOCR and Qwen3-14B.</li>
@@ -778,13 +770,13 @@
 <section class="section" id="education">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">05 —<span>Education</span></div>
+      <div class="section__num">Education</div>
       <h2 class="section__title">Education</h2>
     </div>
     <ul class="edu">
-      <li class="primary reveal"><span class="yr">2024 – 2026</span><div><h3>Engineering degree in Computer Engineering — Data Science &amp; AI</h3><p>École Polytechnique de Sousse. Final-year project: SmartOCR at Smoft ERP.</p></div></li>
+      <li class="primary reveal"><span class="yr">2024 – 2026</span><div><h3>Engineering degree in Computer Engineering, Data Science &amp; AI</h3><p>École Polytechnique de Sousse. Final-year project: SmartOCR at Smoft ERP.</p></div></li>
       <li class="reveal"><span class="yr">2023 – 2024</span><div><h3>Master 1, Intelligent Pervasive Systems</h3><p>ISSAT Sousse</p></div></li>
-      <li class="reveal"><span class="yr">2020 – 2023</span><div><h3>Licence in Computer Systems Engineering — IoT &amp; Embedded Systems</h3><p>ISITCom Sousse</p></div></li>
+      <li class="reveal"><span class="yr">2020 – 2023</span><div><h3>Licence in Computer Systems Engineering, IoT &amp; Embedded Systems</h3><p>ISITCom Sousse</p></div></li>
     </ul>
   </div>
 </section>
@@ -793,8 +785,8 @@
 <section class="section" id="achievements">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">06 —<span>Recognition</span></div>
-      <h2 class="section__title">Achievements &amp; certifications</h2>
+      <div class="section__num">Highlights</div>
+      <h2 class="section__title">Things I'm proud of</h2>
     </div>
 
     <div class="wins">
@@ -817,8 +809,8 @@
         <h3>Certifications</h3>
         <ul>
           <li><span>Microsoft PL-900<small>Power Platform Fundamentals</small></span><span>2026</span></li>
-          <li><span>IT Specialist — Data Analytics</span><span>2025</span></li>
-          <li><span>Google Cloud — Managing Machine Learning Projects</span><span>2023</span></li>
+          <li><span>IT Specialist: Data Analytics</span><span>2025</span></li>
+          <li><span>Google Cloud: Managing Machine Learning Projects</span><span>2023</span></li>
         </ul>
       </div>
       <div class="reveal">
@@ -837,9 +829,9 @@
 <section class="section" id="toolkit">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">07 —<span>Toolkit</span></div>
+      <div class="section__num">Toolkit</div>
       <div>
-        <h2 class="section__title">What I work with, and where I've used it</h2>
+        <h2 class="section__title">Tools I actually use</h2>
         <p class="section__lede">Grouped by the job each tool does in my work. No percentages, just where each one has actually been used.</p>
       </div>
     </div>
@@ -883,8 +875,8 @@
 <section class="section" id="approach">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">08 —<span>Approach</span></div>
-      <h2 class="section__title">How I work</h2>
+      <div class="section__num">My approach</div>
+      <h2 class="section__title">How I like to work</h2>
     </div>
     <div class="principles">
       <div class="principle reveal">
@@ -919,8 +911,8 @@
 <section class="section contact" id="contact">
   <div class="wrap">
     <div class="section__head">
-      <div class="section__num">09 —<span>Contact</span></div>
-      <p class="contact__line">If you're working on AI that has to function inside a real product, I'd be glad to talk.</p>
+      <div class="section__num">Get in touch</div>
+      <p class="contact__line">Building AI that has to work inside a real product? I'd love to hear about it.</p>
     </div>
     <ul class="contact__links">
       <li><a href="mailto:aya.zantour@polytechnicien.tn" data-contact><span class="label">Email</span><span class="v">aya.zantour@polytechnicien.tn</span><span class="go" aria-hidden="true">↗</span></a></li>
